@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume of Punya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .profile {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .profile img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+
+        .resume {
+            margin-top: 40px;
+        }
+
+        .resume h2 {
+            text-align: left;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .resume p {
+            text-align: justify;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+       
+        <div class="profile">
+            <img src="https://www.shutterstock.com/shutterstock/photos/562077406/display_1500/stock-vector-man-character-face-avatar-in-glasses-modern-colorful-style-male-portrait-vector-cartoon-562077406.jpg" alt="Student Image" width="150" height="150">
+            <h2>Punya Dang</h2>
+            <p>JMIT ,Radour</p>
+            <p>Computer Science </p>
+           
+        </div>
+        <div class="resume">
+            <h2>Resume</h2>
+            <h4>Education:</h4>
+            <p>Bachelor  in Computer Science, JMIT college, 2022-2025</p>
+           <h4>     Objectives       </h4>
+              <p>
+
+             Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change. </p> 
+            <h4>Skills:</h4>
+            <p>Programming Languages: Java, C, C++</p>
+            <h4>Web Technologies:</h4>
+               <p>  HTML, CSS</p>
+            <h4>contact</h4>
+            <p>e-mail address: dangpunya12@gmail.com</p>
+
+           
+           
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>
